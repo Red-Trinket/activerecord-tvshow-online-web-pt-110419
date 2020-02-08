@@ -1,1 +1,2 @@
-class ShowController
+def highest_rating 
+  Show.maximum("rating")
